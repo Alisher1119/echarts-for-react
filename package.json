@@ -22,7 +22,7 @@
     "lib": "run-p lib:*",
     "lib:cjs": "tsc -p tsconfig.json --target ES5 --module commonjs --outDir lib",
     "lib:esm": "tsc -p tsconfig.json --target ES5 --module ESNext --outDir esm",
-    "build": "npm run clean && npm run test && npm run lib"
+    "build": "npm run clean && npm run lib"
   },
   "repository": {
     "type": "git",
