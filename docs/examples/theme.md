@@ -7,7 +7,7 @@ order: 3
 
 ```tsx
 import React, { useState } from 'react';
-import * as echarts from 'echarts';
+import * as echarts from '@alisher1119/echarts';
 import ReactECharts from 'echarts-for-react';
 
 echarts.registerTheme('my_theme', {

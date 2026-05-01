@@ -1,4 +1,4 @@
-import type { ECharts } from 'echarts';
+import type { ECharts } from '@alisher1119/echarts';
 import React, { PureComponent } from 'react';
 import { bind, clear } from 'size-sensor';
 import { pick } from './helper/pick';

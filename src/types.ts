@@ -1,4 +1,4 @@
-import type { EChartsType } from 'echarts';
+import type { EChartsType } from '@alisher1119/echarts';
 
 /**
  * Solve the type conflict caused by multiple type files

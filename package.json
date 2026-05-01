@@ -1,6 +1,6 @@
 {
-  "name": "echarts-for-react",
-  "version": "3.0.6",
+  "name": "@alisher1119/echarts-for-react",
+  "version": "1.0.0",
   "description": " Apache Echarts components for React.",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hustcc/echarts-for-react.git"
+    "url": "https://github.com/alisher1119/echarts-for-react.git"
   },
   "keywords": [
     "react",
@@ -39,13 +39,14 @@
     "graph",
     "react-component"
   ],
-  "author": "hustcc (http://github.com/hustcc)",
+  "author": "Alisher1119 (http://github.com/alisher1119)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hustcc/echarts-for-react/issues"
+    "url": "https://github.com/alisher1119/echarts-for-react/issues"
   },
-  "homepage": "https://github.com/hustcc/echarts-for-react",
+  "homepage": "https://github.com/alisher1119/echarts-for-react",
   "devDependencies": {
+    "@alisher1119/echarts": "^1.0.0",
     "@commitlint/cli": "^12.0.0",
     "@commitlint/config-angular": "^12.0.0",
     "@types/jest": "^24.0.0",
@@ -56,7 +57,6 @@
     "cross-env": "^7.0.3",
     "dumi": "^1.1.6",
     "dumi-theme-default": "^1.0.6",
-    "echarts": "^6.0.0",
     "echarts-gl": "^2.0.2",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^8.1.0",
@@ -79,12 +79,12 @@
     "typescript": "^4.2.2"
   },
   "dependencies": {
-    "size-sensor": "^1.0.1",
-    "fast-deep-equal": "^3.1.3"
+    "fast-deep-equal": "^3.1.3",
+    "size-sensor": "^1.0.1"
   },
   "peerDependencies": {
-    "react": "^15.0.0 || >=16.0.0",
-    "echarts": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0"
+    "@alisher1119/echarts": "^1.0.0",
+    "react": "^15.0.0 || >=16.0.0"
   },
   "jest": {
     "runner": "jest-electron/runner",
